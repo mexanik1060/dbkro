@@ -1,7 +1,6 @@
-
 <?php
 
-namespace  core\base\controller\startup;
+namespace  core\test;
 
 use core\base\settings\Settings;
 use core\base\settings\ShopSettings;
