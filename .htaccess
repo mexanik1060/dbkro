@@ -1,0 +1,22 @@
+# Экранирование кавычек отключено
+php_flag magic_qoutes_gpc off
+
+# Язык
+AddDefaultCharset utf-8
+
+# Запуск файла по умолчанию
+DirectoryIndex index.php
+
+# Единая точка входа
+RewriteEngine On
+# Если это не фаил
+RewriteCond %{REQUEST_FILENAME} !-f  
+# Если это не папка
+#RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteCond %{SCRIPT_FILENAME} -d [OR]
+#RewriteCond %{SCRIPT_FILENAME} -f
+
+RewriteRule ^(.*) index.php
+#RewriteRule ^source-directory/(.*) /target-directory/ [R=301,L]
+#RewriteRule "(^|/)\." - [F]
