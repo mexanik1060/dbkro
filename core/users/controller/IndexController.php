@@ -12,13 +12,13 @@ class IndexController extends Controller
 
     public function hello()
     {
-        $template = $this->render(false, ['name'=>'Я страница сайта']);
+        $template = $this->render(false, ['name'=>'Я страница сайта - метод: hello']);
         exit($template);
     }
-/*
+
     public function inputData()
     {
-       $template = $this->render(false, ['name'=>'Маша с Уралмаша']);
+       $template = $this->render(false, ['name'=>'Я страница сайта - метод: inputData']);
        exit($template);
     }
 
@@ -26,5 +26,5 @@ class IndexController extends Controller
     {
 
     }
-*/
+
 }
