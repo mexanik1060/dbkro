@@ -41,6 +41,7 @@ class Settings
                     'path' => 'core/users/controller/',
                     'hrUrl' => true,
                     'routes' => [
+                        'site' => 'index/hello'
 
                     ],
                 ],

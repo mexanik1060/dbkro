@@ -2,10 +2,16 @@
 
 namespace  core\users;
 
+use core\base\controller\Controller;
+
 /**
  * undocumented class
  */
-class SiteController
+class SiteController extends Controller
 {
-  ###code
+    public function hello()
+    {
+        $template = $this->render(false, ['site'=>'Я страница сайта']);
+        exit($template);
+    }
 }
