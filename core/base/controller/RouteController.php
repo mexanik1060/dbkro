@@ -118,7 +118,7 @@ class RouteController extends Controller
                     }
                 }
             }
-            exit(); //для тестов. Убираем когда класс готов к работе
+            //exit(); //для тестов. Убираем когда класс готов к работе
 
         } else {
 
