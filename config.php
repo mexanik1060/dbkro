@@ -8,7 +8,7 @@ const HTTPS_SERVER = 'https://dbkro/';
 //DIR
 const DIR_APPLICATION  = 'E:/openserver/domains/dbkro/';
 const DIR_CORE = DIR_APPLICATION . 'core/';
-const DIR_TEMPLATES = DIR_APPLICATION . 'templates/';
+const DIR_TEMPLATES = DIR_APPLICATION . 'templates/default/';
 const DIR_LOGS = DIR_APPLICATION . 'logs/';
 const DIR_LIBRARIES = DIR_APPLICATION . 'libraries/';
 

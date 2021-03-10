@@ -5,7 +5,7 @@ namespace core\base\controller;
 
 use core\base\settings\Settings;
 use core\base\settings\ShopSettings;
-
+use core\base\controller\Controller;
 
 class RouteController extends Controller
 {
