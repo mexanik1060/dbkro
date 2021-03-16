@@ -98,14 +98,14 @@ class RouteController extends Controller
 
             $this->createRoute($route, $url);
 
-            if ($url[0]) {
+            if ($url[0]) { //Вопрос к: $url[0] или $url[1]
                 $count = count($url);
                 $key = '';
 
                 if (!$hrUrl) {
                     $i = 1;
                 } else {
-                    $this->parameters['alias'] = $url[0];
+                    $this->parameters['alias'] = $url[0]; //Вопрос к: $url[0] или $url[1]
                     $i = 2;
                 }
                 for ( ; $i < $count; $i++) {
